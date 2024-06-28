@@ -10,7 +10,7 @@ Using 11Labs Speech2Speech Synthesis, this tool takes an input video (mp4 only),
 
 ## Mono2Stereo
 
-This tool takes input video (mp4 only) files that only have sound coming out of one output side, and copies the output audio over to the other track. Not tested very much.
+This tool takes input video (mp4 only) files that only have sound coming out of one output side, and copies the output audio over to the other track. Not tested very much. Will add combining both audio sides into both sides soon.
 
 # Future Tools
 
