@@ -2,6 +2,26 @@
  A collection of tools to be used for Matt's YouTuber journey
 
 
+# Current Tools
+
+## Speech2Speech
+
+Using 11Labs Speech2Speech Synthesis, this tool takes an input video (mp4 only), takes out the audio, sends it to 11Labs to turn it into a different voice using the power of artificial intelligence, and then puts the modified voice back into the video.
+
+## Mono2Stereo
+
+This tool takes input video (mp4 only) files that only have sound coming out of one output side, and copies the output audio over to the other track. Not tested very much.
+
+# Future Tools
+
+## ScreenShotter
+
+This lets you go through a video and take a full-size screenshot of any frame; great for thumbnails!
+
+## VidStacker
+
+This tool takes up to 5 videos in order and combines them into 1 video, combining them together in order. This is particularly good for workflows where you have a super-short intro, the video itself, a sponsor segment, an outro, and an end-screen.
+
 
 Instructions for Running the Audio Replacement Script
 This script extracts audio from an MP4 video file, processes it using Eleven Labs API, and replaces the original audio in the video with the processed audio. Below are the steps to set up and run the script.
