@@ -22,6 +22,15 @@ This lets you go through a video and take a full-size screenshot of any frame; g
 
 This tool takes up to 5 videos in order and combines them into 1 video, combining them together in order. This is particularly good for workflows where you have a super-short intro, the video itself, a sponsor segment, an outro, and an end-screen.
 
+## BadWordChecker
+
+Uses OpenAI Whisper to generate a transcript of the video and gives timestamps of any words that YouTube thinks are bad. Can be run locally or with the OpenAI API. Later versions will also be able to auto-censor swear words.
+
+## SubtitleSunshine
+
+Uses OpenAI Whisper to generate Subtitles in a format that YouTube's algorithms love.
+
+# Using the Current Tools
 
 Instructions for Running the Audio Replacement Script
 This script extracts audio from an MP4 video file, processes it using Eleven Labs API, and replaces the original audio in the video with the processed audio. Below are the steps to set up and run the script.
