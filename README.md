@@ -20,7 +20,7 @@ This lets you go through a video and take a full-size screenshot of any frame; g
 
 ## VidStacker
 
-This tool takes up to 5 videos in order and combines them into 1 video, combining them together in order. This is particularly good for workflows where you have a super-short intro, the video itself, a sponsor segment, an outro, and an end-screen.
+This tool takes up to 25 videos in order and combines them into 1 video, combining them together in order. This is particularly good for workflows where you have a super-short intro, the video itself, a sponsor segment, an outro, and an end-screen.
 
 ## BadWordChecker
 
@@ -29,6 +29,10 @@ Uses OpenAI Whisper to generate a transcript of the video and gives timestamps o
 ## SubtitleSunshine
 
 Uses OpenAI Whisper to generate Subtitles in a format that YouTube's algorithms love.
+
+## TagTitleDescriptionGenerator
+
+Generates Tags, Titles, and Descriptions based on the results of SubtitleSunshine. Powered by OpenAI API. The Minimum-Viable-Product will be prompt generator to feed prompts into generators such as ChatGPT or Claude. Later versions will have Google Trends and Competitor Analysis built in, along with SEO tools.
 
 # Using the Current Tools
 
